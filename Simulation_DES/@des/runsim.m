@@ -2,7 +2,7 @@ function d=runsim(d)
  while (~iseos(d))
     if (isempty(d.events))
         break;
-    end
+    end;
 
     e=d.events(1);
     temp=d.events(2:length(d.events));
